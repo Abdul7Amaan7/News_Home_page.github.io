@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div id="main-page">
+      <nav id="navbar">
+        <img class="image-logo" src="images/logo.svg" alt="logo" />
+        <!-- <button onclick="menu_click()" class="ham-burger"></button> -->
+        <div onclick="menu_click()" id="menu-button" class="ham-burger"></div>
+        <div id="remove" class="list-house ds-remove">
+          <ul class="under-list">
+            <li class="item">Home</li>
+            <li class="item">New</li>
+            <li class="item">Popular</li>
+            <li class="item">Trending</li>
+            <li class="item">Categories</li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="top_part">
+        <div class="right_section">
+          <!-- <img
+            class="head-image"
+            src="images/image-web-3-desktop.jpg"
+            alt="head-image"
+          /> -->
+          <picture>
+            <source
+              media="(max-width:376px)"
+              srcset="images/image-web-3-mobile.jpg"
+            />
+            <img
+              class="head-image"
+              src="images/image-web-3-desktop.jpg"
+              alt="mobile"
+            />
+          </picture>
+          <div class="bottom-section">
+            <div class="head_line">
+              <h1 class="head_line">The Bright Future of Web 3.0?</h1>
+            </div>
+
+            <div class="head-para">
+              <p class="main-para">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+
+              <button class="read-button">READ MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="left_section">
+          <h2 class="new">New</h2>
+          <div class="head-info headone">
+            <h3 class="third_head">Hydrogen VS Electric Cars</h3>
+            <p class="third-para">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+
+          <hr class="horizontal_line" />
+
+          <div class="head-info">
+            <h3 class="third_head">The Downsides of AI Artistry</h3>
+            <p class="third-para">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+
+          <hr class="horizontal_line" />
+
+          <div class="head-info">
+            <h3 class="third_head">Is VC Funding Drying Up?</h3>
+            <p class="third-para">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottom_part">
+        <div class="bottom-container particular-margin">
+          <img
+            class="bottom-image"
+            src="images/image-retro-pcs.jpg"
+            alt="image"
+          />
+          <div class="bottom-2container">
+            <h2 class="number">01</h2>
+            <h4 class="bottom-head">Reviving Retro PCs</h4>
+            <p class="bottom-para">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <img
+            class="bottom-image"
+            src="images/image-top-laptops.jpg"
+            alt="image"
+          />
+          <div class="bottom-2container">
+            <h2 class="number">02</h2>
+            <h4 class="bottom-head">Top 10 Laptops of 2022</h4>
+            <p class="bottom-para">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <img
+            class="bottom-image"
+            src="images/image-gaming-growth.jpg"
+            alt="image"
+          />
+          <div class="bottom-2container">
+            <h2 class="number">03</h2>
+            <h4 class="bottom-head">The Growth of Gaming</h4>
+            <p class="bottom-para">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="mailto:amaan12171@gmail.com">Abdul Amaan Sheikh</a>.
+    </div>
+  </body>
+</html>
