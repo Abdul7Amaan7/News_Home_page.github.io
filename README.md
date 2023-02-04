@@ -2,6 +2,8 @@
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
+--https://abdul7amaan7.github.io/News_Home_page.github.io/--
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
